@@ -1,5 +1,32 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+.Card{
+    display: inline-block;
+    border-radius: 20px;
+    margin: 50px 600px 100px 750px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+#top-icon{
+    font-size: 150px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+#card-number{
+    font-size: 100px;
+    position: relative; 
+    top: 150px;
+    left: 65px;
+}
+#bottom-icon{
+    font-size: 150px;
+    position: fixed;
+    top: 480px;
+    left: 1030px;
+    transform: rotate(180deg);
 }
