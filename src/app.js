@@ -5,7 +5,7 @@ import "./style.css";
 
 window.onload = function() {
     document.querySelector("#card-number").innerHTML = generateRandomNumber();
-    document.querySelector("#top-icon", "#bottom-icon").innerHTML = RandomIcon;
+    document.querySelector("#top-icon").innerHTML = RandomIcon;
     document.querySelector("#bottom-icon").innerHTML = RandomIcon;
 };
 
@@ -21,3 +21,7 @@ let generateRandomIcon = () => {
 }
 let RandomIcon = generateRandomIcon();
 
+if (RandomIcon === '♦' || RandomIcon === '♥') {
+        document.getElementById("top-icon").style.color = "red";
+        document.getElementById("bottom-icon").style.color = "red";
+}
