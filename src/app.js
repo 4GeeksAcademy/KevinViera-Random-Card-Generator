@@ -24,4 +24,5 @@ let RandomIcon = generateRandomIcon();
 if (RandomIcon === '♦' || RandomIcon === '♥') {
         document.getElementById("top-icon").style.color = "red";
         document.getElementById("bottom-icon").style.color = "red";
+        document.getElementById("card-number").style.color = "red";
 }
